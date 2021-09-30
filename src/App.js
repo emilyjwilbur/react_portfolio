@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import HeroSection from './components/HeroSection';
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
     <>
     <Router>
     <NavMenu />
+    <HeroSection/>
 
     <Switch>
       <Route path='/about'>
