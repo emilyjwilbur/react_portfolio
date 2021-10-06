@@ -35,9 +35,9 @@ const HeroStyles = styled.div `
     }
 }
 .hero_img {
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
-    height: 600px;
+    height: 550px;
     margin: 0 auto;
 }
 .hero_info{
@@ -49,7 +49,7 @@ const HeroStyles = styled.div `
     flex-direction: column;
     gap: 4rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     width:50px;
 }
 .hero_social {
@@ -146,7 +146,8 @@ const HeroStyles = styled.div `
             }
         }
     }
-}
+
+
 .hero_scrollDown {
     right:0;
     width: 20px;
@@ -155,6 +156,8 @@ const HeroStyles = styled.div `
         font-size: 1.3rem
     }
 }
+}
+
 
 `;
 

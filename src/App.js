@@ -1,6 +1,6 @@
 import React from 'react';
 import NavMenu from './components/NavMenu';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -13,7 +13,7 @@ export default function App() {
     <>
     <Router>
     <NavMenu />
-    <HeroSection/>
+    
 
     <Switch>
       <Route path='/about'>
