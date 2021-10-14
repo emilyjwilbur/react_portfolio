@@ -6,6 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
       </Route>
 
     </Switch>
+    <Footer />
     </Router>
     
     </>

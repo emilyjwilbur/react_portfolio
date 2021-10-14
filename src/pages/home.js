@@ -13,7 +13,7 @@ export default function Home() {
            <AboutSection />
            <ProjectsSection />
            <ContactBanner />
-           <Footer />
+           
         </div>
     )
 }
