@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "http://emilyjwilbur.github.io/react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +30,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -58,6 +61,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.1.1"
   }
 }
