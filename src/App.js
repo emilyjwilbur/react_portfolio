@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
     <Router>
     <NavMenu />
     
+    <ScrollToTop />
 
     <Switch>
       <Route path='/about'>
