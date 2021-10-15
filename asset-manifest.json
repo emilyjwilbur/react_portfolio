@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/react-app/static/js/main.6a8e4827.chunk.js",
+    "main.js.map": "/react-app/static/js/main.6a8e4827.chunk.js.map",
+    "runtime-main.js": "/react-app/static/js/runtime-main.bacaf873.js",
+    "runtime-main.js.map": "/react-app/static/js/runtime-main.bacaf873.js.map",
+    "static/css/2.853ba1bc.chunk.css": "/react-app/static/css/2.853ba1bc.chunk.css",
+    "static/js/2.c346f3d7.chunk.js": "/react-app/static/js/2.c346f3d7.chunk.js",
+    "static/js/2.c346f3d7.chunk.js.map": "/react-app/static/js/2.c346f3d7.chunk.js.map",
+    "index.html": "/react-app/index.html",
+    "static/css/2.853ba1bc.chunk.css.map": "/react-app/static/css/2.853ba1bc.chunk.css.map",
+    "static/js/2.c346f3d7.chunk.js.LICENSE.txt": "/react-app/static/js/2.c346f3d7.chunk.js.LICENSE.txt",
+    "static/media/about.2d3b038a.jpg": "/react-app/static/media/about.2d3b038a.jpg",
+    "static/media/atl.69e74abf.png": "/react-app/static/media/atl.69e74abf.png",
+    "static/media/autumn.b42f2a23.png": "/react-app/static/media/autumn.b42f2a23.png",
+    "static/media/booze.66d549d7.png": "/react-app/static/media/booze.66d549d7.png",
+    "static/media/bullington.6ba2d345.png": "/react-app/static/media/bullington.6ba2d345.png",
+    "static/media/headshot.e0b0ed17.png": "/react-app/static/media/headshot.e0b0ed17.png",
+    "static/media/hello.1277a453.png": "/react-app/static/media/hello.1277a453.png",
+    "static/media/myrtle.5658f98e.png": "/react-app/static/media/myrtle.5658f98e.png",
+    "static/media/noods.0b558321.png": "/react-app/static/media/noods.0b558321.png",
+    "static/media/parks.da08af04.png": "/react-app/static/media/parks.da08af04.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bacaf873.js",
+    "static/css/2.853ba1bc.chunk.css",
+    "static/js/2.c346f3d7.chunk.js",
+    "static/js/main.6a8e4827.chunk.js"
+  ]
+}
