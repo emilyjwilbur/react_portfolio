@@ -101,7 +101,7 @@ export default function ContactForm() {
 
                 <div className="form-group">
                     <label htmlFor="email">Phone Number
-                        <input type="text" id="email" name="phone" value={phone}
+                        <input type="text" id="phone" name="phone" value={phone}
                         onChange={e => setPhone(e.target.value)}
                         />
                     </label>
