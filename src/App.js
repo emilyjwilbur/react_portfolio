@@ -27,7 +27,7 @@ export default function App() {
         <Projects />
       </Route>
 
-      <Route path='/Contact'>
+      <Route path='/contact'>
         <Contact />
       </Route>
 
