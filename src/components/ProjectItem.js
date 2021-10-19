@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import projectImg from "../assets/images/noods.png";
@@ -30,6 +30,13 @@ const ProjectItemStyles = styled.div `
     font-family: 'arial';
     margin-top: 1rem;
 }
+a {
+    font-size: 1.6rem;
+   text-decoration: underline;
+   font-family: 'arial';
+
+}
+
 @media only screen and (max-width: 768px) {
     .projectItem_img{
         height:150px;
@@ -42,6 +49,7 @@ export default function ProjectItem({
     img= projectImg,
     title= 'Project Name',
     desc= 'lorem ipson description here',
+    link= 'link here',
 }) {
     return(
         <ProjectItemStyles>
@@ -53,6 +61,7 @@ export default function ProjectItem({
                    <h3 className="projectItem_title">{title}</h3>
                </Link>
                <p className="projectItem_desc">{desc}</p>
+               <a href={link} target='_blank'>View Live</a>
            </div>
         </ProjectItemStyles>
     )

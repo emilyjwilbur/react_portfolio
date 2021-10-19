@@ -87,7 +87,7 @@ export default function About() {
                 challenges and others.
               </PText>
             </div>
-            <Button btnText="Download CV" btnLink="#" />
+           
           </div>
           <div className="right"></div>
         </div>

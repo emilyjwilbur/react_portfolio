@@ -4,49 +4,76 @@ import Booze from '../images/booze.png';
 import Autumn from '../images/autumn.png';
 import Bullington from '../images/bullington.png';
 import Parks from '../images/parks.png';
-import Myrtle from '../images/myrtle.png'
+import Myrtle from '../images/myrtle.png';
+import Fitness from '../images/fitness.png';
+import Employee from '../images/employee.png';
 const projects = [
-  {
-    id: uuidv4(),
-    name: 'Noods ATL',
-    desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: Noods,
-  },
-  {
-    id: uuidv4(),
-    name: 'boozeMe',
-    desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: Booze,
-  },
+
   {
     id: uuidv4(),
     name: 'Myrtle Hill Consulting',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'WordPress site for Myrtle Hill Consulting in Atlanta, GA.',
     img: Myrtle,
+    link: 'https://www.myrtlehillconsulting.com/',
   },
   {
     id: uuidv4(),
     name: 'Autumn Landscape',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'WordPress site for Autumn Landscape Co. in Atlanta, GA.',
     img: Autumn,
+    link:'https://autumnlandscape.com/'
+  },
+  {
+    id: uuidv4(),
+    name: 'Noods ATL',
+    desc:
+      'Shopify store for NoodsATL',
+    img: Noods,
+    link: 'https://noodsatl.com/',
   },
   {
     id: uuidv4(),
     name: "Bullington Clothing",
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+      'Shopify store for Bullington CLothing at St. Simons Island, GA',
     img: Bullington,
+    link: 'https://www.stevebullington.com/'
+  },
+  {
+    id: uuidv4(),
+    name: 'boozeMe',
+    desc:
+      'Drink recipe App using TheCocktailDB API | JavaScript',
+    img: Booze,
+    link: 'https://emilyjwilbur.github.io/boozeme/',
   },
   {
     id: uuidv4(),
     name: 'Parks&Parkas',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'An interactive app allowing users to search for a national park and is then provided with a correlating weekly weather forecast and park info. Uses Open Weather and National Park API, Bootstrap, jQuery frameworks and local storage.',
     img: Parks,
+    link: 'https://ls-t.github.io/Parks-N-Parkas/'
+  },
+
+  {
+    id: uuidv4(),
+    name: 'Fitness Tracker',
+    desc:
+      'A Node application that utilizes Express, Mongoose, MongoDB Atlas database and is deployed on Heroku. Create workouts and track weekly minutes exercised and weight lifted via MongoDB aggregators.',
+    img: Fitness,
+    link:'https://sheltered-crag-20933.herokuapp.com/'
+  },
+  {
+    id: uuidv4(),
+    name: 'Employee Directory',
+    desc:
+      'A React app that leverages the Random User database to generate a list of random employees. This was an activity to get more familiar with setting state, mapping arrays and doing on-page sorting.',
+    img: Employee,
+    link: 'https://radiant-mountain-52951.herokuapp.com/'
+
   },
 
 ];
