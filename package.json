@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "www.emilyjwilbur.com",
+  "homepage": "https://www.emilyjwilbur.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
