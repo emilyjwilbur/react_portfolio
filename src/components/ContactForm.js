@@ -74,6 +74,7 @@ export default function ContactForm() {
         showResult(true);
 
       };
+      
 
     //   hide result
     // setTimeout(() => {
@@ -121,5 +122,5 @@ export default function ContactForm() {
             </FormStyles>
         </div>
     )
-}
+};
 
