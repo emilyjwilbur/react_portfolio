@@ -67,11 +67,11 @@ export default function About() {
               My name is <span>Emily Wilbur</span>
             </p>
             <h2 className="about_heading">
-              A freelance Web Designer & Developer
+              A freelance Web Developer & Designer
             </h2>
             <div className="about_info">
               <PText>
-                I'm a Full Stack Web Developer from Atlanta, GA, passionate
+                I'm a freelance Web Developer from Atlanta, GA, passionate
                 about developing web applications that are easy to use and
                 appealing to the public. <br /> <br />
                 I believe quality design is rooted in both simplicity and
