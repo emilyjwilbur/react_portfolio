@@ -1,5 +1,5 @@
 import React from "react";
-import { MdEmail, MdFormatListNumbered, MdLocalPhone } from "react-icons/md";
+import { MdEmail, MdLocalPhone } from "react-icons/md";
 import styled from "styled-components";
 import SectionTitle from '../components/SectionTitle';
 import ContactForm from "./ContactForm";
