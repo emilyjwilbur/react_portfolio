@@ -7,6 +7,7 @@ import SocialMediaArrow from "../assets/images/arrow.png";
 
 
 const HeroStyles = styled.div `
+
 .hero{
     height: 100vh;
     min-height: 1000px;
@@ -159,6 +160,8 @@ const HeroStyles = styled.div `
 }
 
 
+
+
 `;
 
 export default function HeroSection() {
@@ -208,6 +211,10 @@ export default function HeroSection() {
                             <p>Scroll</p>
                             <img src={SocialMediaArrow} alt="" />
                         </div>
+
+                        
+                      
+  
                     
             </div>
             </div>
