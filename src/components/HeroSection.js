@@ -10,6 +10,7 @@ import Animation from 'react-animation';
 
 const HeroStyles = styled.div `
 
+
 .hero{
     height: 100vh;
     min-height: 1000px;

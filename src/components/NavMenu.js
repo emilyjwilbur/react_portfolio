@@ -5,10 +5,11 @@ import { MdMenu, MdClose } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
   margin: 0px;
+  
   display:flex;
   align-items: center;
   justify-content: center;
-  font-family: arial;
+  
   
 
  ul{
@@ -20,7 +21,7 @@ const NavMenuStyles = styled.div`
 ul li a  {
    display: block;
    font-family:arial;
-   font-size: 12px;
+   font-size: 14px;
    letter-spacing: 2px;
    width: 120px;
    height: 40px;
