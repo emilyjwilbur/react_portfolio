@@ -7,21 +7,25 @@ import styled from "styled-components";
 
 
 const AboutSectionStyle = styled.div `
+
 padding: 10rem 0;
 .container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
+    
 }
 .aboutSection_left,
 .aboutSection_right {
     flex: 1;
     padding: 2rem;
     
+    
 }
 .section-title {
     text-align: left;
+    
 }
 .para {
     margin-top: 2rem;

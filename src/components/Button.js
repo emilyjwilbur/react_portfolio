@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ButtonStyle = styled.div`
+
 margin-top: 2rem;
 .button {
     font-size: 2.2rem;
@@ -17,21 +18,41 @@ margin-top: 2rem;
         (props.outline ? 'var(--gray-1)' : 'black'
         )};
     font-family: arial;
+    transition-property: background-color;
+    transition-duration: 1s;
+   
 }
+
+.button:hover {
+  background-color: transparent;
+  color:white;
+  
+  
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
     .button {
         font-size; 1.8rem
         font-family: arial;
     }
 }
+
+
 `;
 
 export default function Button({ btnLink = 'test', btnText = 'test', outline = false }) {
   return (
+
+
     <ButtonStyle outline={outline} className="button-wrapper">
       <Link className="button" to={btnLink}>
         {btnText}
       </Link>
     </ButtonStyle>
+    
+   
   );
 }

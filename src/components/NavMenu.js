@@ -4,39 +4,69 @@ import styled from "styled-components";
 import { MdMenu, MdClose } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem 0;
-  font-size: 20px;
-  background: var(--dark-bg);
+  margin: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  
 
-  ul {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
+ ul{
+   margin:5px;
+   padding:0;
+   display: flex;
+   list-style-type:none
+ }
+ul li a  {
+   display: block;
+   font-family:arial;
+   font-size: 12px;
+   letter-spacing: 2px;
+   width: 120px;
+   height: 40px;
+   line-height: 20px;
+   text-align:center;
+   position: relative;
+   transition: all 0.5s;
+   color: light gray;
+ }
+    
 
-    li {
-      display: inline-block;
-      border-radius: 8px;
-      transition: 0.3s ease background-color;
-      &:hover {
-        background-color: #3a3b3c;
-      }
+ul li span {
+      position: absolute;
+      width: 25%;
+      height:50%;
+      background-color:#262626;
+      z-index: -1;
+      left:0;
+      top:0;
+      transform: scaleY(0);
+      transform-origin: top;
     }
-    a {
-      display: inline-block;
-      font-family: arial;
-      padding: 1rem 2rem;
-      font-size: 15px;
-      color: #fffa;
-      outline: none;
+  a:hover span{
+      transform: scaleY(2);
+      transition: all 0.5s;
     }
+    a:hover{
+      color:white;
+    }
+
+    li span:nth-child(2){
+      left:25%;
+      transition-delay:0.15s;
+    }
+     li span:nth-child(3){
+      left:50%;
+      transition-delay:0.3s;
+    }
+    li span:nth-child(4){
+      left:75%;
+      transition-delay:0.45s;
+    }
+
     .active {
       color: #e4e6eb;
+      
     }
   }
   .mobile-menu-icon {
@@ -55,6 +85,7 @@ const NavMenuStyles = styled.div`
     display: none;
   }
   @media only screen and (max-width: 768px) {
+    display:none;
     padding: 0;
     .hide-item {
       transform: translateY(calc(-100% - var(--top)));
@@ -83,10 +114,11 @@ const NavMenuStyles = styled.div`
           
         }
       }
-      li {
+      li a{
         display: block;
         margin-bottom: 1rem;
       }
+      
     }
   }
 `;
@@ -115,7 +147,7 @@ export default function NavMenu() {
           <MdClose />
         </div>
         <li>
-          <NavLink
+          <NavLink 
             to="/"
             exact
             onClick={() => SetShowNav(!showNav)}
@@ -124,10 +156,15 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Home
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </NavLink>
         </li>
         <li>
-          <NavLink
+          
+          <NavLink 
             to="/about"
             onClick={() => SetShowNav(!showNav)}
             role="button"
@@ -135,10 +172,14 @@ export default function NavMenu() {
             tabIndex={0}
           >
             About
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </NavLink>
         </li>
         <li>
-          <NavLink
+          <NavLink 
             to="/projects"
             onClick={() => SetShowNav(!showNav)}
             role="button"
@@ -146,10 +187,14 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Projects
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </NavLink>
         </li>
         <li>
-          <NavLink
+          <NavLink 
             to="/contact"
             onClick={() => SetShowNav(!showNav)}
             role="button"
@@ -157,6 +202,10 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Contact
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </NavLink>
         </li>
       </ul>

@@ -4,6 +4,8 @@ import HeroImg from '../assets/images/headshot.png';
 import Button from "./Button";
 import PText from "./PText";
 import SocialMediaArrow from "../assets/images/arrow.png";
+import Animation from 'react-animation';
+
 
 
 const HeroStyles = styled.div `
@@ -16,13 +18,18 @@ const HeroStyles = styled.div `
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative
+    position: relative;
+    
+ 
+
 }
 .hero_heading {
     font-size: 2rem;
     margin-bottom: -3rem;
     position: relative;
     font-family: arial;
+    -webkit-animation: fadein 3s;
+   
     span {
         display:inline-block;
         width: 100%;
@@ -32,18 +39,29 @@ const HeroStyles = styled.div `
         font-size: 4rem;
         font-family: "Arial";
         color: white;
+        -webkit-animation: fadein 8s;
         
     }
 }
 .hero_img {
-    max-width: 450px;
+    max-width: 405px;
     width: 100%;
-    height: 550px;
+    height: 500px;
     margin: 0 auto;
+    transform:ease-in 5s;
+    -webkit-animation: fadein 9s;
 }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100%; }
+}
+
 .hero_info{
-    margin-top: -5rem
+    margin-top: -5rem;
+    transform:ease-in 5s;
+    -webkit-animation: fadein 3s;
 }
+
 .hero_social,
 .hero_scrollDown  {
     display: flex;
@@ -55,6 +73,7 @@ const HeroStyles = styled.div `
 }
 .hero_social {
     left: 50px;
+   
 }
 .hero_scrollDown {
     right: 50px;
@@ -85,7 +104,7 @@ const HeroStyles = styled.div `
 .hero_social_text {
     ul {
         li {
-            margin-bottom: 1rem;
+            
             
         }
         a {
@@ -95,6 +114,22 @@ const HeroStyles = styled.div `
             transform: rotate(-90deg);
             letter-spacing: 3px;
             margin-bottom: 4rem;
+            transition: color 2s ease;
+           
+            
+        }
+    }
+}
+.hero_social_text:hover {
+    ul{
+        li{
+           
+        }
+        a{
+            color:white;
+            font-weight: bold;
+            
+            
         }
     }
 }
@@ -112,10 +147,12 @@ const HeroStyles = styled.div `
     }
     .hero_img {
         height: 300px;
-        width:200px
+        width:200px;
+        
     }
+   
     .hero_info {
-        margin-top:2rem;
+        
     }
     .hero_social {
         left: 0px;
@@ -162,7 +199,8 @@ const HeroStyles = styled.div `
 
 
 
-`;
+`
+;
 
 export default function HeroSection() {
     return (
@@ -180,6 +218,7 @@ export default function HeroSection() {
                     <PText>A Full-Stack Web Developer living in Atlanta. I'm currently open for work and would love to hear from you! </PText>
                   
                     <Button btnLink='/projects' btnText='see my work' />
+                    
                 </div>
                     <div className='hero_social'>
                         <div className='hero_social_indicator'>
