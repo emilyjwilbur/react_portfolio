@@ -11,7 +11,6 @@ const NavMenuStyles = styled.div`
   justify-content: center;
   
   
-
  ul{
    margin:5px;
    padding:0;
@@ -47,22 +46,27 @@ ul li span {
   a:hover span{
       transform: scaleY(2);
       transition: all 0.5s;
+      background-color: #333333;
     }
     a:hover{
       color:white;
+      
     }
 
     li span:nth-child(2){
       left:25%;
       transition-delay:0.15s;
+      background-color: #333333;
     }
      li span:nth-child(3){
       left:50%;
       transition-delay:0.3s;
+      background-color: #333333;
     }
     li span:nth-child(4){
       left:75%;
       transition-delay:0.45s;
+      background-color: #333333;
     }
 
     .active {
@@ -148,7 +152,7 @@ export default function NavMenu() {
           <MdClose />
         </div>
         <li>
-          <NavLink 
+          <NavLink
             to="/"
             exact
             onClick={() => SetShowNav(!showNav)}
@@ -164,8 +168,7 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          
-          <NavLink 
+          <NavLink
             to="/about"
             onClick={() => SetShowNav(!showNav)}
             role="button"
@@ -180,7 +183,7 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          <NavLink 
+          <NavLink
             to="/projects"
             onClick={() => SetShowNav(!showNav)}
             role="button"
@@ -195,7 +198,7 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          <NavLink 
+          <NavLink
             to="/contact"
             onClick={() => SetShowNav(!showNav)}
             role="button"

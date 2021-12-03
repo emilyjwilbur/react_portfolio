@@ -11,6 +11,66 @@ import Animation from 'react-animation';
 const HeroStyles = styled.div `
 
 
+
+
+  
+  .bg {
+    animation:slide 4s ease-in-out alternate infinite;
+    background-image: linear-gradient(-45deg, #292929 30%, #808090 50%) ;
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:8s;
+  }
+  
+  .bg3 {
+    animation-duration:8s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero{
     height: 100vh;
     min-height: 1000px;
@@ -20,6 +80,9 @@ const HeroStyles = styled.div `
     align-items: center;
     justify-content: center;
     position: relative;
+
+    
+    
     
  
 
@@ -41,6 +104,7 @@ const HeroStyles = styled.div `
         font-family: "Arial";
         color: white;
         -webkit-animation: fadein 8s;
+        
         
     }
 }
@@ -205,11 +269,25 @@ const HeroStyles = styled.div `
 
 export default function HeroSection() {
     return (
+
+        
+        
         <HeroStyles>
+           
+
             <div className="hero">
+            <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+            
+        
             <div className="container">
+            
+            
                 <h1 className="hero_heading">
                     <span>Hello, my name is </span>
+                    
                     <span className="hero_name">Emily Wilbur</span>
                 </h1>
                 <div className="hero_img">
@@ -259,6 +337,7 @@ export default function HeroSection() {
             </div>
             </div>
         </HeroStyles>
+       
     );
 
 }
