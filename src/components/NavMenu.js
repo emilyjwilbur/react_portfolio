@@ -4,18 +4,18 @@ import styled from "styled-components";
 import { MdMenu, MdClose } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
-  margin: 0px;
   
+  margin-top: 0px;
   display:flex;
   align-items: center;
   justify-content: center;
-  
+  background:transparent;
   
  ul{
+   
    margin:5px;
    padding:0;
    display: flex;
-   list-style-type:none
  }
 ul li a  {
    display: block;
@@ -47,26 +47,30 @@ ul li span {
       transform: scaleY(2);
       transition: all 0.5s;
       background-color: #333333;
+     
     }
     a:hover{
       color:white;
-      
+
     }
 
     li span:nth-child(2){
       left:25%;
       transition-delay:0.15s;
       background-color: #333333;
+     
     }
      li span:nth-child(3){
       left:50%;
       transition-delay:0.3s;
       background-color: #333333;
+      
     }
     li span:nth-child(4){
       left:75%;
       transition-delay:0.45s;
       background-color: #333333;
+   
     }
 
     .active {
@@ -90,40 +94,45 @@ ul li span {
     display: none;
   }
   @media only screen and (max-width: 768px) {
-    display:none;
-    padding: 0;
-    .hide-item {
-      transform: translateY(calc(-100% - var(--top)));
-    }
-    .mobile-menu-icon {
-      display: block;
-    }
-    .navItems {
-      --top: 1rem;
-      transition: 0.3s ease transform;
-      background-color: #3a3b3c;
-      padding: 2rem;
-      width: 90%;
-      max-width: 300px;
-      border-radius: 12px;
-      position: absolute;
-      right: 1rem;
-      top: var(--top);
 
-      .closeNavIcon {
-        display: block;
-        width: 3rem;
-        margin: 0 0 0 auto;
-        cursor: pointer;
-        * {
-          
-        }
-      }
-      li a{
-        display: block;
-        margin-bottom: 1rem;
-      }
-      
+     
+  margin-top: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+ ul{
+   margin:5px;
+   padding:0;
+ }
+ul li a  {
+   
+   font-family:arial;
+   font-size: 14px;
+   letter-spacing: 2px;
+   width: 90px;
+   height: 40px;
+   line-height: 20px;
+   text-align:center;
+   position: relative;
+   transition: all 0.5s;
+   color: light gray;
+ }
+    
+
+ul li span {
+      position: absolute;
+      width: 25%;
+      height:50%;
+      background-color:#262626;
+      z-index: -1;
+      left:0;
+      top:0;
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+   
+
     }
   }
 `;

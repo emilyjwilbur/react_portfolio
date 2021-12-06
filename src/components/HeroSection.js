@@ -24,6 +24,7 @@ const HeroStyles = styled.div `
     right:-50%;
     top:0;
     z-index:-1;
+    margin-top: 50px
   }
   
   .bg2 {
@@ -283,6 +284,7 @@ export default function HeroSection() {
             
         
             <div className="container">
+                
             
             
                 <h1 className="hero_heading">
