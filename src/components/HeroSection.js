@@ -24,7 +24,7 @@ const HeroStyles = styled.div `
     right:-50%;
     top:0;
     z-index:-1;
-    margin-top: 50px
+   
   }
   
   .bg2 {
