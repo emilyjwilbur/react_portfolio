@@ -111,6 +111,7 @@ export default function About() {
                     'HTML',
                     'CSS',
                     'JavaScript',
+                    'jQuery',
                     'React',
                 ]}
 
@@ -125,6 +126,7 @@ export default function About() {
                     'Express',
                     'MongoDB',
                     'MySql',
+                    'Firebase'
                 ]}
 
                 />
@@ -138,6 +140,7 @@ export default function About() {
                     'Figma',
                     'InDesign',
                     'Illustrator',
+                    
                 ]}
 
                 />
