@@ -19,7 +19,7 @@ const NavMenuStyles = styled.div`
  }
 ul li a  {
    display: block;
-   font-family:arial;
+   font-family:helvetica;
    font-size: 14px;
    letter-spacing: 2px;
    width: 120px;
@@ -107,7 +107,7 @@ ul li span {
  }
 ul li a  {
    
-   font-family:arial;
+  font-family: 'helvetica';
    font-size: 14px;
    letter-spacing: 2px;
    width: 90px;

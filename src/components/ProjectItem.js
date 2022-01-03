@@ -23,17 +23,17 @@ const ProjectItemStyles = styled.div `
 }
 .projectItem_title {
     font-size: 2.2rem;
-    font-family: 'arial';
+    font-family: 'helvetica';
 }
 .projectItem_desc {
     font-size: 1.6rem;
-    font-family: 'arial';
+    font-family: 'helvetica';
     margin-top: 1rem;
 }
 a {
     font-size: 1.6rem;
    text-decoration: underline;
-   font-family: 'arial';
+   font-family: 'helvetica';
 
 }
 

@@ -10,10 +10,11 @@ padding: 10rem 0;
     border-radius: 12px;
     padding: 5rem 0rem;
     text-align:center;
+    
 }
 .contactBanner_heading{
 font-size: 4rem;
-font-family: 'arial';
+font-family: 'helvetica';
 margin-bottom: 2rem;
 }
 @media only screen and (max-width: 768px) {

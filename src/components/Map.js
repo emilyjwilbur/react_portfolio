@@ -25,13 +25,14 @@ min-height: 400px;
 .map_card_heading{
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-family:'arial'
+    font-family: 'helvetica';
 }
 .map_card_link{
     display: inline-block;
     font-size: 1.6rem;
     margin-top: 3rem;
     text-decoration: underline;
+    font-family: 'helvetica';
 }
 
 @media only screen and (max-width: 768px) {

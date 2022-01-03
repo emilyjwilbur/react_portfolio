@@ -8,7 +8,7 @@ font-size: 1.8rem;
 line-height: 1.8rem;
 
 p {
-    font-family: arial;
+    font-family: 'helvetica';
     
     
 }

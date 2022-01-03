@@ -36,7 +36,7 @@ margin-top: 2rem;
 @media only screen and (max-width: 768px) {
     .button {
         font-size; 1.8rem
-        font-family: arial;
+        font-family: helvetica;
     }
 }
 

@@ -12,7 +12,6 @@ const HeroStyles = styled.div `
 
 
 
-
   
   .bg {
     animation:slide 4s ease-in-out alternate infinite;
@@ -47,6 +46,9 @@ const HeroStyles = styled.div `
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
+  
+  
+    
   }
   
   
@@ -92,17 +94,17 @@ const HeroStyles = styled.div `
     font-size: 2rem;
     margin-bottom: -3rem;
     position: relative;
-    font-family: arial;
+    font-family: 'helvetica';
     -webkit-animation: fadein 3s;
    
     span {
         display:inline-block;
         width: 100%;
-        font-family:arial;
+        font-family:'helvetica';
     }
     .hero_name {
         font-size: 4rem;
-        font-family: "Arial";
+        font-family: "helvetica";
         color: white;
         -webkit-animation: fadein 8s;
         
@@ -149,7 +151,7 @@ const HeroStyles = styled.div `
     width: 50px;
     p {
         font-size: 1.5rem;
-        font-family: arial;
+        font-family:'helvetica';
         transform: translateY(-70px) rotate(90deg);
         letter-spacing: .6rem;
         text-transform: uppercase;
@@ -176,7 +178,7 @@ const HeroStyles = styled.div `
         a {
             display: inline-block;
             font-size: 13px;
-            font-family: arial;
+            font-family:'helvetica';
             transform: rotate(-90deg);
             letter-spacing: 3px;
             margin-bottom: 4rem;

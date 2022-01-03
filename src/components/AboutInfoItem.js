@@ -10,20 +10,20 @@ margin-top: 3rem;
 position: relative;
 .title{
     font-size: 2.4rem;
-    font-family: 'arial';
+    font-family: 'helvetica';
 }
 .items {
     display: flex;
     gap:1.5rem;
     position: absolute;
     left: 18rem;
-    font-family: 'arial';
+    font-family: 'helvetica';
 }
 .item {
     background-color: var(--deep-dark);
     padding:1rem;
     border-radius: 8px;
-    font-family: 'arial';
+    font-family: 'helvetica';
 }
 
 @media only screen and (max-width: 768px) {

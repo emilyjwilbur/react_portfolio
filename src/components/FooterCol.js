@@ -6,15 +6,15 @@ const ColStyle = styled.div`
    .heading{
        font-size: 2.4rem;
        margin-bottom: 2rem;
-       font-family: 'arial';
+       font-family: 'helvetica';
    } 
    li{
        margin-bottom: 1rem;
-       font-family: 'arial';
+       font-family: 'helvetica';
    }
    a{
        font-size:1.6rem;
-       font-family: 'arial';
+       font-family: 'helvetica';
    }
 `
 

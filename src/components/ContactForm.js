@@ -15,9 +15,11 @@ width:100%;
 .form-group{
     width:100%;
     margin-bottom:2rem;
+    
 }
 label{
     font-size: 1.8rem;
+    font-family: helvetica;
 }
 input,
 textarea{
@@ -30,10 +32,12 @@ textarea{
     border:none;
     border-radius:8px;
     margin-top:1rem;
+    
 }
 textarea{
     min-height:250px;
     resize:vertical;
+    font-family: helvetica;
 }
 button[type="submit"]{
     background-color: var(--gray-1);
@@ -45,10 +49,12 @@ button[type="submit"]{
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    font-family: helvetica;
 }
 .row {
     font-size: 15px;
     margin-top: 2rem;
+    
 }
 `;
 

@@ -21,7 +21,7 @@ background-color: var(--deep-dark);
 .footer_col1_title{
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    font-family: 'arial';
+    font-family: 'helvetica';
 }
 .copyright{
     background-color: var(--dark-bg);
