@@ -74,17 +74,7 @@ export default function About() {
                 I'm a Frontend Web Developer from Atlanta, GA, passionate
                 about developing web applications that are easy to use and
                 appealing to the public. <br /> <br />
-                I believe quality design is rooted in both simplicity and
-                elegance; therefore, I build and contribute to applications that
-                are simple, yet effective, and put user interface first. I
-                earned a certificate in Full Stack Web Development from the
-                Georgia Institute of Technology to add technical expertise
-                alongside my Bachelor of Science in Journalism & Mass
-                Communication from Kent State University. <br /> <br />I have
-                demonstrated skills in JavaScript, CSS, HTML, ReactJS,
-                responsive web design, NodeJS, jQuery, Bootstrap and a variety
-                of other technologies that help to conquer both my own
-                challenges and others.
+                
               </PText>
             </div>
            
