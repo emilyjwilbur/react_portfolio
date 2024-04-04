@@ -139,10 +139,9 @@ export default function About() {
                 <AboutInfoItem 
                 title="Design"
                 items={[
-                    'Photoshop',
                     'Figma',
-                    'InDesign',
-                    'Illustrator',
+                    'Adobe CC',
+                    ''
                     
                 ]}
 
