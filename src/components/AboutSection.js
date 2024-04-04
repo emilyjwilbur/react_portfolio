@@ -90,7 +90,7 @@ export default function AboutSection() {
                     heading='About me'
                 />
                 <PText>
-                I'm a freelance Web Developer passionate about developing web applications that are easy to use and appealing to the public. <br /> <br /> I believe quality design is rooted in both simplicity and elegance; therefore, I build and contribute to applications that are simple, yet effective, and put user interface first.
+                I'm a Frontend Web Developer passionate about developing web applications that are easy to use and appealing to the public. <br /> <br /> I believe quality design is rooted in both simplicity and elegance; therefore, I build and contribute to applications that are simple, yet effective, and put user interface first.
                 </PText>
                 <div className="aboutSection_buttons">
                     <Button btnLink='/projects' btnText="my work"></Button>
