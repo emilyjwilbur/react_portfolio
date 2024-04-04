@@ -71,7 +71,7 @@ export default function About() {
             </h2>
             <div className="about_info">
               <PText>
-                I'm a freelance Web Developer from Atlanta, GA, passionate
+                I'm a Frontend Web Developer from Atlanta, GA, passionate
                 about developing web applications that are easy to use and
                 appealing to the public. <br /> <br />
                 I believe quality design is rooted in both simplicity and
@@ -113,6 +113,9 @@ export default function About() {
                     'JavaScript',
                     'jQuery',
                     'React',
+                    'GSAP',
+                    'PHP',
+                    'LiquidJS'
                 ]}
 
                 />
