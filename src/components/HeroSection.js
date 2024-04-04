@@ -298,7 +298,7 @@ export default function HeroSection() {
                     <img src={HeroImg} alt=""/>
                 </div>
                 <div className="hero_info">
-                    <PText>A Full-Stack Web Developer living in Atlanta. I'm currently open for work and would love to hear from you! </PText>
+                    <PText>A FrontEnd Web Developer based out of Atlanta,GA. </PText>
                   
                     <Button btnLink='/projects' btnText='see my work' />
                     
