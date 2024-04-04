@@ -101,8 +101,8 @@ export default function Footer() {
                                         path:'tel:7702861039',
                                     },
                                     {
-                                        title:"ewilbur94@gmail.com",
-                                        path:'mailto:ewilbur94@gmail.com',
+                                        title:"emily@emilyjwilbur.com",
+                                        path:'mailto:emily@emilyjwilbur.com',
                                     },
                                     {
                                         title:"Atlanta, GA",
@@ -133,7 +133,7 @@ export default function Footer() {
            <div className="copyright">
                <div className="container">
                    <PText>
-                     © 2021 - Emily Wilbur | Made with ♥ in ATL. </PText>
+                     © 2024 - Emily Wilbur | Made with ♥ in ATL. </PText>
 
                </div>
 
